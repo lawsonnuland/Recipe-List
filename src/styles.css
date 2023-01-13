@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+button {
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#addrecipeprompt {
+    background-color: lightgreen;
+}
+
+#recipeprompt {
+    display: none;
+    position: fixed;
+    top:40px;
+    left: 30%;
+    width: 40%;
+    padding: 5px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+    background-color: beige;
+}
